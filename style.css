@@ -62,13 +62,9 @@ header.startup h1 {
 
 /* CountDown CSS */
 .countdown-wrapper {
-    /*height: 550px;*/
     display:flex;
     flex-direction: row;
-    padding-bottom: 200px;
 }
-
-
 .timer{
     font-size: 35px;
     margin-left: 4%;
