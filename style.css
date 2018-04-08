@@ -57,3 +57,39 @@ header.startup h1 {
   cursor: pointer;
 }
   
+
+/* CountDown CSS */
+.countdown-wrapper {
+    text-align:center;
+    margin-top: 140px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    /*height: 550px;*/
+}
+
+
+.timer{
+    
+    font-size: 35px;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+} 
+.counter-text {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+@media only screen and (max-width: 500px) {
+    .timer{
+       
+        font-size: 25px;
+        border-radius: 8px;
+        margin-left: 0;
+        margin-right: 0;
+    } 
+
+    .counter-text {
+        font-size: 20px;
+    }
+}
